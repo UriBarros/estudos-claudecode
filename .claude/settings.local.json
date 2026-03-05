@@ -3,7 +3,24 @@
     "allow": [
       "Bash(npm run:*)",
       "Bash(set:*)",
-      "Bash(NODE_OPTIONS='--require ./node-compat.cjs' npx next:*)"
+      "Bash(NODE_OPTIONS='--require ./node-compat.cjs' npx next:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm install:*)",
+      "Bash(npm test:*)",
+      "mcp__playwright__browser_navigate",
+      "Bash(curl:*)",
+      "mcp__playwright__browser_take_screenshot",
+      "Bash(start:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(powershell:*)",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_press_key",
+      "mcp__playwright__browser_wait_for",
+      "Bash(alias:*)",
+      "Bash(cat:*)",
+      "Bash(python3:*)",
+      "Bash(code:*)"
     ]
   }
 }

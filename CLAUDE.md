@@ -45,6 +45,7 @@ Requires `ANTHROPIC_API_KEY` in `.env` for real AI generation; without it a `Moc
 ### Panel Layout
 
 `src/app/main-content.tsx` uses `react-resizable-panels` to arrange three panes:
+
 - Left: `ChatInterface` (message list + input)
 - Center: `PreviewFrame` (iframe live preview)
 - Right: `CodeEditor` (Monaco) + `FileTree`
